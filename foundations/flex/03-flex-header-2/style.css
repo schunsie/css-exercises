@@ -46,3 +46,26 @@ a {
 ul {
   list-style-type: none;
 }
+
+
+/* Duplicated CSS selectors. Normally you wouldn't do this, its only for exercise purposes */
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 16px;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
